@@ -1,0 +1,4 @@
+<h2>Scenario 3 : </h2>
+<input #parentInput type="text">
+<button (click) = "sentToChild(parentInput.value)">Click Me to send msg</button>
+<app-scenario3-child [parentMsg] = "msgP"></app-scenario3-child>
